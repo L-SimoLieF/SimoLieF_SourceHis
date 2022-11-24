@@ -1,3 +1,3 @@
 # Script_History
 
- __Copyright 2018-2022 SimoLieF(PerfyCreation.com).__
+ __© 2018-2022 SimoLieF(PerfyCreation.com).__
