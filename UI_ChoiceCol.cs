@@ -1,28 +1,28 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class UI_ChoiceCol : MonoBehaviour
 {
-    public UIColiderMG UIMG;//UIColider ƒAƒ^ƒbƒ`‚µ‚ë
-    public bool L_R;//coliderî•ñ true‚Í¶Afalse‚ª‰EB
+    public UIColiderMG UIMG;//UIColider ã‚¢ã‚¿ãƒƒãƒã—ã‚
+    public bool L_R;//colider    true = å·¦ false = å³
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Player")
+        if (other.tag == "Player")
         {
-            if(L_R == true)
+            if (L_R == true)
             {
                 UIMG.endFlag = true;
                 UIMG.contFlag = false;
